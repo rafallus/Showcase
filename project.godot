@@ -13,3 +13,8 @@ config_version=5
 config/name="Showcase"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[debug]
+
+gdscript/warnings/exclude_addons=false
+gdscript/warnings/return_value_discarded=1
